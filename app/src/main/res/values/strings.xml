@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">layouts04</string>
+    <string name="topRight">top right</string>
+    <string name="botLeft">bot left</string>
+    <string name="botRight">bot right</string>
+    <string name="topLeft">top left</string>
+    <string name="click_button">CLICK</string>
+    <string name="botCenter">bot center</string>
+    <string name="topCenter">top center</string>
+    <string name="button1">demo 1</string>
+    <string name="button2">demo 2</string>
+    <string name="middle">middle</string>
+</resources>
