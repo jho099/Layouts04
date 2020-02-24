@@ -13,8 +13,9 @@
     <string name="down">down</string>
     <string name="button3">demo 3</string>
     <string name="text1">These</string>
-    <string name="text2">are</string>
+    <string name="text2">\n \n \n \n \n are</string>
     <string name="text4">\n \n \n text views</string>
     <string name="text3">\n \n overlapping</string>
     <string name="button4">demo 4</string>
+    <string name="button5">demo 5</string>
 </resources>
