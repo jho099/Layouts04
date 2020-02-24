@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout6">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizGuideline1"
+        app:layout_constraintGuide_percent="0.25"
+        android:orientation="horizontal"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/horizGuideline1"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hi_button"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/thisButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/this_button"
+                android:textAllCaps="true"
+                android:textColor="#00F"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/isButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/is_button"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/layoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/layout_button"
+                android:textAllCaps="true"
+                android:textColor="#00F"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/sixButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/six_button"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/exclamationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exclaim_button"
+                android:textAllCaps="true"
+                android:textColor="#00F"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/fillerButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filler_button"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/fillerButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filler_button"
+                android:textAllCaps="true"
+                android:textColor="#00F"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:id="@+id/fillerButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filler_button"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
