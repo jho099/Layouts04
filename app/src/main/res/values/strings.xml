@@ -38,4 +38,6 @@ Commodo nulla facilisi nullam vehicula ipsum a arcu. Felis eget velit aliquet sa
     <string name="hi_button">hi</string>
     <string name="three_button">three</string>
     <string name="filler_button">filler</string>
+    <string name="button7">demo 7</string>
+    <string name="questionL7">have you seen these words in my other demos?</string>
 </resources>

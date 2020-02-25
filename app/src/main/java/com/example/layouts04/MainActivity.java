@@ -40,4 +40,8 @@ public class MainActivity extends AppCompatActivity {
     public void demo6(View view) {
         startActivity(new Intent(getApplicationContext(), layout6.class));
     }
+
+    public void demo7(View view) {
+        startActivity(new Intent(getApplicationContext(), layout7.class));
+    }
 }
